@@ -1,0 +1,31 @@
+# WHLapi
+
+Simple API Just for learning
+
+-- API Endpoints --
+WHLapi/v1/ContactMe/{service}
+WHLapi.herokuapp.com/v1/ContactMe/{service}
+
+[ 1 ] Post
+WHLapi.herokuapp.com/v1/ContactMe/post
+Requirements :
+ContentType=Application/json
+{
+  nama: String(max 15 character),
+  email: String(max 20 character),
+  message: String(max 200 character)
+}
+Response :
+
+> 200 --> Post data Succeded!
+> 301 --> Payload isn't valid
+> 500 --> Internal Server Error
+
+[ 2 ] Get
+WHLapi.herokuapp.com/v1/ContactMe/get
+Response :
+{
+  nama, email, message
+}
+
+/\ Later i will implement Session and Cookie technologies to improve api security /\
