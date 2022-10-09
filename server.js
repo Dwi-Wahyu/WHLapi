@@ -19,6 +19,6 @@ app.get("/v1/ContactMe/get/", get);
 
 app.post("/v1/ContactMe/post/", post);
 
-app.listen(8080, () => {
+app.listen(port, () => {
   console.log(`terbuka pada port ${port}`);
 });
