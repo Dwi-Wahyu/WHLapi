@@ -4,10 +4,10 @@ Simple API Just for learning
 
 -- API Endpoints --
 wahil-api/v1/ContactMe/{service}
-wahil-api.herokuapp.com/v1/ContactMe/{service}
+wahil-api.vercel.app/v1/ContactMe/{service}
 
 [ 1 ] Post
-wahil-api.herokuapp.com/v1/ContactMe/post
+wahil-api.vercel.app.com/v1/ContactMe/post
 Requirements :
 ContentType=Application/json
 {
@@ -22,7 +22,7 @@ Response :
 > 500 --> Internal Server Error
 
 [ 2 ] Get
-wahil-api.herokuapp.com/v1/ContactMe/get
+wahil-api.vercel.app.com/v1/ContactMe/get
 Response :
 {
   nama, email, message
