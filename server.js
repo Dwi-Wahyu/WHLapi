@@ -14,7 +14,10 @@ const post = require("./controllers/ContactMe/post");
 const get = require("./controllers/ContactMe/get");
 
 app.get("/", (req, res) => {
-  res.status(200).json({ message: "Berhasil" });
+  res.status(200).json({
+    message:
+      "Go to API documentation at https://github.com/Dwi-Wahyu/wahil-api/blob/main/API_docs.txt",
+  });
 });
 
 app.get("/v1/ContactMe/get/", get);
