@@ -5,4 +5,6 @@ Simple API Just for learning
 
 Read API_docs for documentation.
 
+You can see the API at https://wahil-api.vercel.app/
+
 <-> Soon i will add post, put, and other services <->
